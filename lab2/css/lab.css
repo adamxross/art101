@@ -22,6 +22,20 @@ h1 {
   text-indent: 40%;
   color:white;
 }
+h2 {
+  text-indent: 40%;
+  color: whitesmoke
+}
 html{
   background-color: grey;
+}
+
+.swan-photo {
+  margin: 10px;
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px solid #000000
 }
