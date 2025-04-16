@@ -9,19 +9,21 @@ body {
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: #552281ac;
+  border-radius: 45%
 }
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
+    border: solid 4px #000000;
     background-color: #552281ac;
   }
-h1 {
+h1, h2, h4 {
   text-align: center
 }
+
 p {
   font-family: sans-serif;
-  color: white;
+  color: rgb(237, 236, 228);
 }
 .lab3img2, .lab3img1, .lab3img4, .lab3img3 {
   margin: 10px;
