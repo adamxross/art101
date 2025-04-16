@@ -1,9 +1,49 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+  background-color: #b4dfec;
+}
+.top-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #552281ac;
+}
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #552281ac;
   }
+h1 {
+  text-align: center
+}
+p {
+  font-family: sans-serif;
+  color: white;
+}
+.lab3img2, .lab3img1, .lab3img4, .lab3img3 {
+  margin: 10px;
+  max-width: 350px;
+  border: 3px solid #000000
+}
+.figure-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.figure-container figure {
+  width: 500px
+}
+.fig1 figcaption, .fig2 figcaption, .fig3 figcaption, .fig4 figcaption {
+  margin: top 5em;
+  font-size: 0.9em;
+  color: black;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
