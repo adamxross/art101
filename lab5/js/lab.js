@@ -1,6 +1,33 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Data & Variables
+// Author: Adam Ross
+// Date: Apr 2025
+
+// test
+
+make = "Trek";
+
+model = "FX+ 2";
+
+color = "Blue";
+
+year = 2022;
+
+// calculate
+
+age = 2025 - year;
+
+// boolean moment
+
+let ownIt = true;
+
+// output
+
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
+document.writeln("Do I own it? T/F: ", ownIt + "<br>");
 
 // Constants
 
