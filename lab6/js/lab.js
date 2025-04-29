@@ -1,6 +1,26 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Arrays and Objects Lab
+// Author: Adam Ross
+// Date: Apr 2025
+
+// Array & Object
+let myTransport = ["E-Bike", "Bus", "Car"];
+
+let myMainRide = {
+  make : "Trek",
+  model : "FX+2",
+  color : "blue",
+  year : "2022",
+  age : 3
+  };
+  
+  
+
+// Output
+document.writeln("My regular transport: " + myTransport + "<br>");
+
+document.writeln("My daily ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
 
 // Constants
 
