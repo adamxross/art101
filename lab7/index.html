@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 7 - Functions</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 7 - Functions</h1>
+			<div class="mainlabcontent">
+				<h2>Main Lab Content</h2>
+			</div>
+			<div id="output">
+				<h2>JavaScript Output</h2>
+				<script src="js/lab.js"></script>
+			</div>
+		</section>
+		<section class="paragraphs">
+			<div class="paragraph-container">
+				<div class="challenge">
+					<h2>Challenge</h2>
+					<p>The main challenge of this lab was to write out a function in our new lab7 JS files and further create an interface
+                        that sorted a username. By default, the output of our JS file would show the inputted username sorted alphabetically, we
+                        were also further challenged to customize our output by adding CSS, ignoring spaces and capital letters, making it sort inco
+                         an anagram, and also seperating the function into parameters.
+                    </p>
+				</div>
+			<div class="problems">
+					<h2>Problems</h2>
+					<p>This was far and away our hardest challenge yet, and required the most amount of online research from W3 schools
+                        in order to fully accomplish everything. While I experienced problems accidentally placing '' or "" where 
+                        they did not belong, or used "," instead of "+", the main tasks of this lab was generally simple to figure out.
+                        Nearly ALL of the Task X tasks seemed extremely difficult, however. Using W3 schools I was able to figure out that 
+                        I could not simply add CSS to the div that contained my JS output. Instead, I had to change up how "document.writeln"
+                        worked so that it could incorporate my CSS styling. Instead I referenced my output as "output" in all three of my CSS,
+                         HTML, and JavaScript and instead use "textcontent=". I did not figure out how to do the other task X tasks.</p>
+			</div>
+			</div>
+			<div class="reflection">
+					<h2>Reflection</h2>
+					<p>This assignment required me to spend much more time and effort on the assignment compared to the past two labs on JavaScript.
+                         I think that the lab overall went well, but it is unfortunate that I was unable to figure out how to do many of the other
+                         task x tasks. Overall, I think I still did well in completing the rest of the tasks as required.
+                    </p>
+			</div>
+
+			<div class="results">
+					<h2>Results</h2>
+					<p>I successfully created a function that organized a username alphabetically.</p>
+			</div>
+		</section>
+		<div class="homepagelink">
+			<a href="../index.html">Back to my Homepage!</a>
+		</div>
+		</nav>
+	</main>
+</body>
+</html>
