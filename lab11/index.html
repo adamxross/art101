@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 11: JavaScript Events and Forms</title>
+
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+    <!-- JavaScript Loading -->
+    <script src="js/lab.js"></script>
+</head>
+<body>
+	<main id="content">
+		<section>
+			<h1>Lab 11: JavaScript Events and Forms</h1>
+			<div class="mainlabcontent">
+				<h2>Main Lab Content</h2>
+			</div>
+			<input  type="text" id="user-name" placeholder="Input your name">
+			<button id="submit">submit</button>
+			<div id="output"></div>
+		</section>
+		<section class="paragraphs">
+			<div class="paragraph-container">
+				<div id="challenge">
+					<h2>Challenge</h2>
+					<p> The main challenge of this lab was to create an input in our html alongside a button that would ask
+						the user to input their username, and sort their name alphabetically.
+                    </p>
+				</div>
+			<div id="problems">
+					<h2>Problems</h2>
+					<p>This lab was fairly easy but I did run into a problem that had to do with actually printing out any response after a 
+						button click. I thought that I had messed up my html JS loading somehow but it was actually because I forgot
+						to write a document printing function when coding the event receiver for the button click. Once I included a 
+						document() part, it was fairly easy to get everything working.
+                    </p>
+			</div>
+			</div>
+			<div id="reflection">
+					<h2>Reflection</h2>
+					<p> This lab taught me that I cannot always trust the way the assignment gives its example code. In this lab, I had 
+						to actually think about my past labs and what was missing from the usual JavaScript syntax. It took me less 
+						than an hour, but it taugh me a valuable lesson about the labs.
+                    </p>
+			</div>
+
+			<div id="results">
+					<h2>Results</h2>
+					<p>I successfully created a button that alphabetically sorted any name that was input and activated by my button.
+                    </p>
+			</div>
+		</section>
+		<div class="homepagelink">
+			<a href="../index.html">Back to my Homepage!</a>
+			<a href="https://github.com/adamxross/art101/blob/master/lab11/js/lab.js">View My JavaScript</a>
+		</div>
+		</nav>
+	</main>
+</body>
+</html>

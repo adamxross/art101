@@ -24,8 +24,6 @@ $("#make-convo").click(function(){
 
 
 
-
-
 // buttons
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
