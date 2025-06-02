@@ -33,7 +33,7 @@
     margin-top: 5px;
   }
   .homepagelink:hover {
-    background-color: grey;
+    background-color: rgb(173, 173, 173);
   }
   .mainlabcontent {
     text-align: center;
